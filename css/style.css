@@ -19,8 +19,6 @@ p {
 }
 
 h1 {
-	background-color: #c58c84;
-	color: #c0c0c0;
 	font-family: "Century Gothic", sans-serif;
 }
 
@@ -78,7 +76,7 @@ a:hover, a:focus {
 	margin-top: 1rem;
 	background-color: #c0c0c0;
 	border-radius: 0.25rem;
-	padding: 1rem;
+	padding: 2rem 1rem;
 	word-wrap: break-word;
 }
 
@@ -94,6 +92,8 @@ hr {
 #mainContent {
 	margin-top: 1rem;
 	padding: 1rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	border-radius:  0.25rem;
 	background-color: #c0c0c0;
 }
