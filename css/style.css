@@ -3,8 +3,8 @@
 	#c58c84 - Peach
 	#c0c0c0 - Silver
 	#9f9f9f - Dark silver (Horizontal lines)
+	#A8A3AB - Light purple
 */
-
 
 body {
 	background-color: #444349;
@@ -21,14 +21,20 @@ p {
 h1 {
 	background-color: #c58c84;
 	color: #c0c0c0;
+	font-family: "Century Gothic", sans-serif;
 }
 
 h3 {
 	font-size: 1.5rem;
 	margin-bottom: 0;
+	font-family: "Century Gothic", sans-serif;
 }
 
 a {
+	color: #444349;
+}
+
+a:hover, a:focus {
 	color: #c58c84;
 }
 
@@ -45,12 +51,22 @@ a {
 	color: #444349;
 }
 
+.menu.vertical > li:hover {
+	background-color: #c58c84;
+}
+
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
 	border-color: #c58c84 transparent transparent;
 }
 
 .button {
 	background-color: #c58c84;
+	color: #c0c0c0;
+}
+
+.button:hover, .button:focus {
+    background-color: #444349;
+    color: #c0c0c0;
 }
 
 #banner {
