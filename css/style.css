@@ -1,0 +1,56 @@
+/*** COLOR PALLET ***/
+/*  #444349 - Dark purple
+	#c58c84 - Peach
+	#c0c0c0 - Silver
+	#9f9f9f - Dark silver (Horizontal lines)
+*/
+
+
+body {
+	background-color: #444349;
+	background-image: url(../assets/background.png);
+	color: #444349;
+}
+
+p {
+	font-size: 1.10rem;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+
+.top-bar {
+	margin-top: 1rem;
+}
+
+#banner {
+	margin-top: 1rem;
+	border-radius: 0.25rem;
+}
+
+.sidebar {
+	margin-top: 1rem;
+	background-color: #c0c0c0;
+	border-radius: 0.25rem;
+	padding: 1rem;
+	word-wrap: break-word;
+}
+
+hr {
+    background: #444349;
+}
+
+#avatar {
+	display: block;
+	margin: 0 auto;
+}
+
+#mainContent {
+	margin-top: 1rem;
+	padding: 1rem;
+	border-radius:  0.25rem;
+	background-color: #c0c0c0;
+}
