@@ -10,6 +10,7 @@ body {
 	background-color: #444349;
 	background-image: url(../assets/background.png);
 	color: #444349;
+	font-family: "Century Gothic", sans-serif;
 }
 
 p {
@@ -17,13 +18,39 @@ p {
 	margin-bottom: 0;
 }
 
+h1 {
+	background-color: #c58c84;
+	color: #c0c0c0;
+}
+
 h3 {
 	font-size: 1.5rem;
 	margin-bottom: 0;
 }
 
+a {
+	color: #c58c84;
+}
+
 .top-bar {
 	margin-top: 1rem;
+	background-color: #c0c0c0;
+}
+
+.top-bar, .top-bar ul {
+	background-color: #c0c0c0;
+}
+
+.top-bar a {
+	color: #444349;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+	border-color: #c58c84 transparent transparent;
+}
+
+.button {
+	background-color: #c58c84;
 }
 
 #banner {
